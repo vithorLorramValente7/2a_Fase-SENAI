@@ -49,11 +49,6 @@ setInputDia('digite um numero 1-7')
 
 
 
-
-  
-
-
-
     return (
     <div className='container_dias_semana'>
       
@@ -61,12 +56,12 @@ setInputDia('digite um numero 1-7')
       <h1>dia da semana</h1>
 <h3>Dia da Semana: Peça ao usuário que insira um número de 1 a 7 e, em seguida, <br /> mostre o dia da semana correspondente (por exemplo, 1 = Domingo, 2 = Segunda, etc.).</h3>
 
-digite aqui:<input 
+<label htmlFor="">digite aqui:</label><input 
       value={inputValor}
       onChange={(event)=>{setInputValor(event.target.value)}}/>
    
   <button onClick={descobreDia}>descobrir</button>
-  {inputDia}
+  <div>{inputDia}</div>
 
 
 

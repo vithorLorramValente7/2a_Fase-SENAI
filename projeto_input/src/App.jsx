@@ -3,7 +3,8 @@ import './App.css'
 import MaiorIdade from './components/MaiorIdade'
 import MenorIdade from './components/MenorIdade'
 import DiaSemana from './components/DiaSemana'
-
+import Verificar_se_par from './components/Verificar_se_par'
+import CaculadoraSimples from './components/CaculadoraSimples'
 
 function App() {
 
@@ -59,7 +60,8 @@ setMaior(false)
    <div>
 <DiaSemana/>
 
-
+<Verificar_se_par/>
+<CaculadoraSimples/>
 
 
 
