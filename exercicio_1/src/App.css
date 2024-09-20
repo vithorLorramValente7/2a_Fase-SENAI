@@ -1,0 +1,10 @@
+.star_uber_container{
+border: solid rebeccapurple;
+
+
+}.container_inputs_notas{
+
+justify-content: stretch;
+align-items: flex-start;
+flex-direction: column-reverse;
+}

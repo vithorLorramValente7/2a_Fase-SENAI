@@ -128,9 +128,9 @@ else if(tempo_em_segundo>=31104000){
   
   
   return (
-    <div>
+    <div className="star_uber_container">
       
-
+<h1>star uber</h1>
 {resultado}
 <button onClick={calcula_velocidade}>calcular</button>
 
