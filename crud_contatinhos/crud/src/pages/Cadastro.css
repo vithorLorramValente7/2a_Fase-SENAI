@@ -1,0 +1,16 @@
+.card-contatos{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNQqba81YKbRGK-jEcEuizRbX68GZCU8FOTA&s);
+    background-size: cover;
+    border-radius: 10px;
+border: black solid;
+background-repeat: no-repeat;
+background-position: center;
+}.div_contatinhos{
+display: flex;
+justify-content: space-evenly;
+
+
+}h2{
+    color: crimson;
+}
